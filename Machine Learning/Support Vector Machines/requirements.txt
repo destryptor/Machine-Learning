@@ -1,0 +1,22 @@
+Make sure to install numpy, pandas, matplotlib, seaborn, sklearn and lime using the command "pip install <library_name>".
+
+Libraries/ Functions required:
+1. numpy: Library for numerical operations and array manipulation.
+2. pandas: Data manipulation and analysis library.
+3. matplotlib.pyplot: Plotting library for creating visualizations.
+4. seaborn: Statistical data visualization library based on Matplotlib.
+5. StandardScaler from sklearn.preprocessing: Standardizes features by removing the mean and scaling to unit variance.
+6. PolynomialFeatures from sklearn.preprocessing: Generates polynomial and interaction features.
+7. SelectKBest from sklearn.feature_selection: Selects the top K features based on a statistical test.
+8. f_classif from sklearn.feature_selection: ANOVA F-value for the feature selection in classification tasks.
+9. SVC from sklearn.svm: Support Vector Classifier for SVM classification tasks.
+10. time: Built-in library to measure the execution time of code.
+11. CalibratedClassifierCV from sklearn.calibration: Provides probability calibration for classifiers.
+12. roc_curve from sklearn.metrics: Computes Receiver Operating Characteristic (ROC) curve metrics.
+13. KFold from sklearn.model_selection: K-Folds cross-validator for splitting data into training and testing sets.
+14. StratifiedKFold from sklearn.model_selection: Cross-validator for stratified K-Folds splitting.
+15. SGDClassifier from sklearn.linear_model: Implements linear classifiers with stochastic gradient descent.
+16. GridSearchCV from sklearn.model_selection: Performs an exhaustive search over specified parameter values.
+17. cross_val_predict from sklearn.model_selection: Generates cross-validated estimates for each input data point.
+18. RandomizedSearchCV from sklearn.model_selection: Randomized search over parameter values for model tuning.
+19. LIME from lime.lime_tabular: Provides Local Interpretable Model-agnostic Explanations for model predictions.

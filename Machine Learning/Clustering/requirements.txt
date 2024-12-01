@@ -1,0 +1,14 @@
+Make sure to install numpy, pandas, matplotlib, seaborn and sklearn using the command "pip install <library_name>".
+
+Libraries/ Functions required:
+1. numpy: Library for numerical operations and array manipulation.
+2. pandas: Data manipulation and analysis library.
+3. seaborn: Statistical data visualization library based on Matplotlib.
+4. matplotlib: Plotting library for creating visualizations.
+5. StandardScaler from sklearn.preprocessing: Standardizes features by removing the mean and scaling to unit variance.
+6. PolynomialFeatures from sklearn.preprocessing: Generates polynomial and interaction features.
+7. TSNE from sklearn.manifold: Performs t-distributed stochastic neighbor embedding for dimensionality reduction.
+8. davies_bouldin_score from sklearn.metrics: Computes the Davies-Bouldin index for clustering evaluation.
+9. calinski_harabasz_score from sklearn.metrics: Computes the Calinski-Harabasz index for clustering evaluation.
+10. AgglomerativeClustering from sklearn.cluster: Implements agglomerative clustering for unsupervised learning.
+11. DBSCAN from sklearn.cluster: Density-based spatial clustering of applications with noise (DBSCAN) for clustering.
